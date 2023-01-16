@@ -3,16 +3,19 @@
 
 }
 .navbar{
-    margin-left: 15vw;
+    position: absolute;
+    left: 15vw;
     background-color: black;
    display: flex;
    justify-content: space-between;
    align-items: center;
     height: 10vh;
+    width: 85%;
 }
 .navbar button{
 height: 7vh;
 border: none;
+cursor: pointer;
 }
 .symbol button{
 font-size: 2vw;
