@@ -13,6 +13,8 @@
     width: 85%;
 }
 .navbar button{
+    background-color: black;
+color: white;
 height: 7vh;
 border: none;
 cursor: pointer;

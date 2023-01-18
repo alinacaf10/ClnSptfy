@@ -17,6 +17,7 @@ function Leftside() {
                     <button>Create Playlist</button>
                     <button>Liked Music</button>
                 </div>
+                <div className='cookies'><button>Cookies</button></div>
         </div>
     )
 }

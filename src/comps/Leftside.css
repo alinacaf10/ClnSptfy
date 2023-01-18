@@ -4,11 +4,50 @@
     background: black;
 }
 .restart button{
-    width: 20vw;
+    
+    background: black;
+    color: white;
+    cursor: pointer;
+    width: 15vw;
     height: 10vh;
     font-size: 2vw;
 }
+.choise button{
+    background: black;
+    color: white;
+    cursor: pointer;
+    height: 5vh;
+    width: 10vw;
+    margin-left: 2vw;
+    font-size: 18px;
+}
 .choise{
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: 4vh;
+    display: grid;
+
+}
+.create button{
+    background: black;
+    color: white;
+    cursor: pointer;
+    height: 5vh;
+width: 10vw;
+font-size: 18   px;
+margin-left: 2vw;
+}
+.create{
+    margin-top: 2vh;
+    display: grid;
+    
+}
+.cookies button:hover{
+text-decoration: underline
+}
+.cookies button{
+    background: black;
+    color: white;
+    cursor: pointer;
+    height: 5vh;
+width: 6vw;
+margin-top: 54vh;
 }

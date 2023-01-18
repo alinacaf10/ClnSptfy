@@ -1,3 +1,4 @@
+import Home from "./comps/Home";
 import Leftside from "./comps/Leftside";
 import Navbar from "./comps/Navbar";
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
      <Navbar/>
      <Leftside/>
+     <Home/>
     </div>
   );
 }
